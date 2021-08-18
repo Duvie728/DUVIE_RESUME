@@ -1,0 +1,179 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<title>Elizabeth Eli - Resume</title>
+
+<meta name="viewport" content="width=device-width"/>
+<meta name="description" content="The Curriculum Vitae of Elizabeth Eli."/>
+<meta charset="UTF-8"> 
+
+
+<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+<link type="text/css" rel="stylesheet" href="{% static 'css/style.css' %}">
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body id="top">
+<div id="cv" class="instaFade">
+	<div class="mainDetails">
+		<div id="headshot" class="quickFade">
+			<img src="{% static 'images/hng.png' %}" alt="Elizabeth Eli" />
+		</div>
+		
+		<div id="name">
+			<h1 class="quickFade delayTwo">Elizabeth Eli</h1>
+			<h2 class="quickFade delayThree">Backend developer</h2>
+		</div>
+		
+		<div id="contactDetails" class="quickFade delayFour">
+			<ul>
+				<li>elizabetheli4u@gmail.com</a></li>
+				<li><a href="https://internship.zuri.team">HNGi8.com</a></li>
+                <li><a href="{% url 'index' %}">CONTACT ME</a></li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+	
+	<div id="mainArea" class="quickFade delayFive">
+		<section>
+			<article>
+				<div class="sectionTitle">
+					<h1>Personal Profile</h1>
+				</div>
+				
+				<div class="sectionContent">
+					<p>Elizabeth Eli is a Legal practitioner and an upcoming Backend Developer interning at HNGi8 2021. </p>
+				</div>
+			</article>
+			
+			<div class="clear"></div>
+		</section>
+		<br/>
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Work Experience</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h2>ZURI-TRAINING/INTERNSHIP</h2>
+					<p class="subDetails">February 2021  - July 2021</p>
+                    <p class="subDetails"><a href="https://training.zuri.team/ " target="new">Zuri</a></p>
+					<p>A 4-month Virtual training program  with over 10,000 students learning to code, design, build mobile application and more.
+                        The program is aimed at getting you started in the Tech industry.</p>
+				</article>
+				<br/>
+				
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+		<br/>
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Codes Written</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h2>CRUD-DJANGO-APPLICATION</h2>
+					<p class="subDetails"><a href="https://github.com/Duvie728/CRUD-DJANGO-APPLICATION " target="new">Blog</a></p>
+					<p>Building a blog site using python and Django. </p>
+					
+				</article>
+				<br/>
+				<article>
+					<h2>Kidvacc project</h2>
+					<p class="subDetails"><a href=" https://github.com/Duvie728/kidvacc-be-pjt-37" target="new">KIDVACC</a></p>
+					<p> This project was built using Django restframework and hosted on heroku. This is an application that solves the issues of vaccination for parents.  A well as linking parents to their choice of hospital for the vaccination of their Ward/Children. </p>
+				</article>
+				<br/>
+				<article>
+					<h2>ATM TASK </h2>
+					<p class="subDetails"><a href=" https://github.com/Duvie728/PYTHON-LOOPS-AND-FUNCTION" target="new">Atm task</a></p>
+					<p>This was a task on python loop and function. we were were required to build a simple atm  machine function</p>
+				</article>
+				<br/>
+				<article>
+					
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+		<br/>
+		<section>
+			<div class="sectionTitle">
+				<h1>Key Skills</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<ul class="keySkills">
+					<li>Python/Django</li>
+					<li>Legal Analysis</li>
+					<li>Communication</li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</section>
+		<br/>
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Education</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h2>Rivers State University in Nigeria</h2>
+					<p class="subDetails">LLB (Honors)</p>
+                </article>
+
+                    <br/>
+                <article>
+                    <h2>NIGERIAN LAW SCHOOL</h2>
+                    <p class="subDetails">BL </p>
+						
+				</article>
+
+                    <br/>  
+                <article>
+                    <h2>ZURI-TRAINING</h2>
+                    <p class="subDetails"><a href="https://training.zuri.team/ " target="new">Zuri</a></p>
+                    <p>Former intern, Zuri training.</p>
+        
+					<br/><Br/>
+				</article>
+				
+                <div class="clear"></div>
+
+                <br>
+            <section>
+                <div class="sectionTitle">
+                    <h1>Logos</h1>
+                </div>
+                    
+            <div class="sectionContent">
+                <ul class="logos">
+                <li><img src="{% static 'images/HNGi8.jpg' %}" alt="HNG" /></li>
+                <li><img src="{% static 'images/zuri.png' %}" alt="ZURI" /></li>
+                <li><img src="{% static 'images/i4g1.png' %}" alt="I4G" /></li>
+                    </ul>
+                </div>
+                    <div class="clear"></div>
+                </section>
+                <br/>
+			</div>
+			<div class="clear"></div>
+		</section>
+		<br/>
+	</div>
+</div>
+
+</body>
+</html>
